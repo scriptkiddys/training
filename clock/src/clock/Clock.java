@@ -1,8 +1,15 @@
 package clock;
 
 public class Clock {
-	int time = 0000;
-	String timeZone = "ERR";
+	private int time = 0000;
+	private String timeZone = "ERR";
+	
+	public int getTime(){
+		return time;
+	}
+	public String getTimeZone(){
+		return timeZone;
+	}
 	
 	void setTime(int newTime) {
 		time = newTime;
@@ -13,7 +20,7 @@ public class Clock {
 	}
 	
 	void printTime() {
-		System.out.println("The time in " + timeZone + " is: " + time);
+		System.out.println("The time in " + getTimeZone() + " is: " + getTime());
 	}
 	
 }
