@@ -1,0 +1,10 @@
+package userControl;
+
+public class UserMain {
+	
+	public static void main(String[] args) {
+		System.out.println("Starting up..."+"    Done");
+		
+	}
+
+}

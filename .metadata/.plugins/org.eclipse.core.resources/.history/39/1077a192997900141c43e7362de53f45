@@ -1,0 +1,20 @@
+package userControl;
+
+public class Main {
+
+	public static void main(String[] args) {
+		public boolean currentStatus = true;
+		System.out.println("System launching..."+ status());
+		
+		public String status(boolean){
+			if (currentStatus == true){
+				return "   Done";
+			}else {
+				return "   Fatal Error";
+			}
+		}
+	}
+	
+	
+
+}
