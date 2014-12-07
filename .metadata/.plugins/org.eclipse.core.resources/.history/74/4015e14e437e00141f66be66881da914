@@ -1,0 +1,32 @@
+package main;
+
+public class P13 {
+	
+	public void main1(){
+		System.out.println("========= Anfang Seite 13/1. =========");
+		
+		int x = 3;
+		if (x == 3){
+			System.out.println("x ist 3");
+		}
+		System.out.print("Das wird immer ausgeführt.");
+		
+		System.out.println("========== Ende Seite 13/2. ==========");
+		System.out.println();
+	}
+	public void main2(){
+		System.out.println("========= Anfang Seite 13/2. =========");
+		
+		int x = 3;
+		if (x == 3){
+			System.out.println("x ist 3");
+		} else {
+			System.out.println("x ist NICHT 3");
+		}
+		System.out.print("Das wird immer ausgeführt.");
+		
+		System.out.println("========== Ende Seite 13/2. ==========");
+		System.out.println();
+	}
+
+}

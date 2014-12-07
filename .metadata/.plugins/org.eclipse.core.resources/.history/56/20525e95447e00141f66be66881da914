@@ -18,8 +18,6 @@ public class Main {
 		P13 output13_2 = new P13();
 		output13_2.main2();
 		
-		P13 output13_3 = new P13();
-		output13_3.main3();
 
 	}
 
