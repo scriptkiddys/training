@@ -20,9 +20,7 @@ public class Main {
 		
 		P13 output13_3 = new P13();
 		output13_3.main3();
-		
-		P20 output20 = new P20();
-		output20.main();
+
 	}
 
 }
