@@ -1,0 +1,47 @@
+package main;
+
+public class P21 {
+	
+	public void main() {
+		int x = 0;
+		int y = 0;
+		for (int i = 0; i < 3; i++) {
+			while (x < 5) {
+				switch (i) {
+					case 0:
+						y = x - y;
+						
+					case 1:
+						y = y + x;
+						
+					case 2:
+						y = y + 2;
+						if (y > 4) {
+							y = y - 1;
+						}
+						
+					case 3:
+						x = x + 1;
+						y = y + x;
+						
+					case 4:
+						if (y < 5) {
+							x = x + 1;
+							if (y < 3) {
+								x = x - 1;
+							}
+						}
+						y = y + 2;
+						
+					default:
+						System.out.print("ERR");
+						
+				}
+				x = x + 1;
+			}
+			x = y = 0;
+		}
+		
+	}
+	
+}
