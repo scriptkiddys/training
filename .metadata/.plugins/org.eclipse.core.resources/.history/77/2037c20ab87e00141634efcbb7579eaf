@@ -1,0 +1,31 @@
+package main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		P10 output10 = new P10();
+		output10.main();
+		
+		P11 output11 = new P11();
+		output11.main();
+		
+		P12 output12 = new P12();
+		output12.main();
+		
+		P13 output13_1 = new P13();
+		output13_1.main1();
+		
+		P13 output13_2 = new P13();
+		output13_2.main2();
+		
+		P13 output13_3 = new P13();
+		output13_3.main3();
+		
+		P20 output20 = new P20();
+		output20.main();
+		
+		P21 output21 = new P21();
+		output21.main();
+	}
+
+}

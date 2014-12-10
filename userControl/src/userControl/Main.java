@@ -5,8 +5,8 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-		String finalStatus = getStatus();
-		System.out.println("System launching..." + finalStatus);
+		//String finalStatus = getStatus();
+		//System.out.println("System launching..." + finalStatus);
 
 	}
 

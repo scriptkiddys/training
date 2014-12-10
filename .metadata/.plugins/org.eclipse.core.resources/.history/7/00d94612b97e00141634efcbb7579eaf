@@ -1,0 +1,33 @@
+package main;
+
+import java.util.Scanner;
+
+public class Main {
+	
+	public static Scanner input; ///create field 
+	
+	public static void main(String[] args) {
+		input = new Scanner(System.in);
+		///String input2 = new Scanner.(System.in);
+		System.out.println("User, please enter your name: ");
+		String name = input.next();
+		;
+		
+		System.out.println("Bitte geben Sie die erste Zahl ein: ");
+		
+		int input1 = Integer.parseInt(input.next());
+		
+		System.out.println("Bitte geben Sie die zweite Zahl ein: ");
+		int input2 = Integer.parseInt(input.next());
+		
+		
+		System.out.println (
+			"Erste Zahl: " + input1 +
+			"Zweite Zahl: " + input2 +
+			"Ergebnis: " + (input1 + input2)
+		);
+		
+		
+	}
+	
+}

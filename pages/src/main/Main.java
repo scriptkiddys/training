@@ -12,14 +12,10 @@ public class Main {
 		P12 output12 = new P12();
 		output12.main();
 		
-		P13 output13_1 = new P13();
-		output13_1.main1();
-		
-		P13 output13_2 = new P13();
-		output13_2.main2();
-		
-		P13 output13_3 = new P13();
-		output13_3.main3();
+		P13 output13 = new P13();
+		output13.main1();
+		output13.main2();
+		output13.main3();
 		
 		P20 output20 = new P20();
 		output20.main();
