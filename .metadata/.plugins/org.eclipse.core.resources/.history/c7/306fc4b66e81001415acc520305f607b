@@ -63,7 +63,7 @@ public class Main {
 				}*/
 				else if ((i == temp) && (prim % pZahlen[i]) != 0){
 					i = 1;	
-					prim += 2;
+					prim += 2;;
 				}
 				else  {
 					i++;

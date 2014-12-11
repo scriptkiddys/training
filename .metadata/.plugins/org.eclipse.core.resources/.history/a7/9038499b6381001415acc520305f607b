@@ -1,0 +1,59 @@
+package main;
+
+import java.util.Scanner;
+
+//import java.util.Array;
+
+public class Main {
+	
+	public static Scanner	input;	// /create field
+	
+	public static void main(String[] args) {
+		//int[] userIn;
+		//userIn = new int[9];
+		
+		//input = new Scanner(System.in);
+		// String userIn[1] = new Scanner.(System.in);
+		// System.out.println("User, hplease enter your name: ");
+		// String name = input.next();
+		// System.out.println("Hallo, " + name);
+		/*
+		 * System.out.println("Bitte geben Sie die erste Zahl ein: ");
+		 * 
+		 * 
+		 * 
+		 * userIn[0] = Integer.parseInt(input.next());
+		 * 
+		 * System.out.println("Bitte geben Sie die zweite Zahl ein: ");
+		 * userIn[1] = Integer.parseInt(input.next()); Arrays.sort(userIn);
+		 * 
+		 * System.out.println ( "Erste Zahl: " + userIn[0] + "Zweite Zahl: " +
+		 * userIn[1] + "Ergebnis: " + (userIn[0] + userIn[1]) ); for (int i=0;
+		 * i< userIn.length; i++) { System.out.print(userIn[i] + " " + i); }
+		 */
+		
+		int[] pZahlen;
+		pZahlen = new int[1000];
+		int temp = 1;
+		int i = 0;
+		int prim = 3;
+		pZahlen[0] = 2;
+		pZahlen[temp] = 3;
+		
+		while (temp <= pZahlen.length) {
+			while ((i <= temp) && ((prim % pZahlen[i]) == 0)) {
+				if (i == temp) {
+					pZahlen[temp] = prim;
+					i = 0;
+					temp++;
+				}
+			}
+		}
+		
+		for (int q = 0; q < pZahlen.length; q++) {
+			System.out.print(pZahlen[q] + " ");
+		}
+		// for (int kapital==1000);
+	}
+	
+}

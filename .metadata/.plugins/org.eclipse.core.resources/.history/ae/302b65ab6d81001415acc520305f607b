@@ -38,13 +38,12 @@ public class Main {
 		int i = 1;
 		int prim = 3;
 		pZahlen[0] = 2;
-		pZahlen[1] = 3;
-		temp = 2;
+		pZahlen[temp] = 3;
 		
 		while (temp <= pZahlen.length) {	//setze so oft in den aktuellen Slot des Arrays etwas ein, bis dieser voll ist
 			while (i <= temp) { 
 				
-				if ((i == temp) && (prim % pZahlen[i]) == 0) {
+				if ((i == temp)&&(prim % pZahlen[i]) == 0) {
 					temp++;						//solange die aktuell geprüfte Variable mittels Werten geprüft wird,
 					pZahlen[temp] = prim;
 					System.out.print(pZahlen[temp] + " ");
@@ -61,11 +60,7 @@ public class Main {
 					i = 1;							//setze den counter für die tests zurück
 					prim += 2;
 				}*/
-				else if ((i == temp) && (prim % pZahlen[i]) != 0){
-					i = 1;	
-					prim += 2;
-				}
-				else  {
+				else {
 					i++;
 				}
 				
