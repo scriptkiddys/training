@@ -41,12 +41,11 @@ public class Main {
 		int prim = 1;
 		int[] pZahlen;
 		pZahlen = new int[1000];
-		pZahlen[0]=1;
+		pZahlen[temp]=1;
 		
 		while(prim < 1500) {
 			System.out.print(prim);
 			prim++;
-			
 			
 			if ((prim % pZahlen[temp])==0){
 				
@@ -57,7 +56,6 @@ public class Main {
 		for (int q = 0; q < pZahlen.length; q++) {
 			System.out.print(pZahlen[q]);
 		}
-		for (int kapital=1000);
 	}
 	
 }
